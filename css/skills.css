@@ -1,0 +1,221 @@
+/* Skills Section design */
+.section-skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 65px;
+}
+
+.skill-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.skill-section h2{
+    font-size: 2rem;
+    color: rgb(45, 45, 45);
+    margin-top: 100px;
+}
+
+.skill-img-wrapper img{
+    height: 350px;
+}
+
+.skill-wrapper{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.skills-img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.skill{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.html-outer{
+    height: 10px;
+    border-radius: 20px;
+    background-color: #000006;
+    position: relative;
+    overflow: hidden;
+}
+
+.html-outer:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80%;
+    background-color: #F75421;
+}
+
+.css-outer{
+    height: 10px;
+    border-radius: 20px;
+    background-color: #000006;
+    position: relative;
+    overflow: hidden;
+}
+
+.css-outer:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 85%;
+    background-color: #0068BA;
+}
+
+.bootstrap-outer{
+    height: 10px;
+    border-radius: 20px;
+    background-color: #000006;
+    position: relative;
+    overflow: hidden;
+}
+
+.bootstrap-outer:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80%;
+    background-color: #800FF3;
+}
+
+.javascript-outer{
+    height: 10px;
+    border-radius: 20px;
+    background-color: #000006;
+    position: relative;
+    overflow: hidden;
+}
+
+.javascript-outer:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 75%;
+    background-color: #F7D800;
+}
+
+.react-outer{
+    height: 10px;
+    border-radius: 20px;
+    background-color: #000006;
+    position: relative;
+    overflow: hidden;
+}
+
+.react-outer:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 65%;
+    background-color: #4163fb;
+}
+
+.outer{
+    width: 300px;
+}
+
+.skill-icon{
+    font-size: 30px;
+    width: 30px;
+}
+
+.skill-icon .icon1:nth-child(1){
+    color:#F75421;
+}
+.skill-icon .icon2:nth-child(1){
+    color:#0068BA;
+}
+.skill-icon .icon3:nth-child(1){
+    color:#800FF3;
+}
+.skill-icon .icon4:nth-child(1){
+    color:#F7D800;
+}
+.skill-icon .icon5:nth-child(1){
+    color:#4163fb;
+}
+
+
+
+@media screen and (max-width: 780px) {
+    .section-skils{
+        gap: 20px;
+    }
+}
+
+
+@media screen and (max-width: 980px) {
+    .outer{
+        width: 250px;
+    }
+
+    .skill-img-wrapper img{
+        height: 270px;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .skill-img-wrapper img{
+        height: 200px;
+    }
+    .outer{
+        width: 200px;
+    }
+
+    .section-skils{
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .skill-section{
+        gap: 10px;
+    }
+
+    .skill-wrapper{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .skills-img{
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+    .outer{
+        width: 150px;
+    }
+
+}
